@@ -34,7 +34,7 @@ const ExpenseCard = ({ transactions }) => {
             </Card>
             <Card>
                 <CardContent>
-                    <Typography>Expense</Typography>
+                    <Typography>Ex</Typography>
                     <Typography className={classes.expense}>-₹{expense}</Typography>
                 </CardContent>
             </Card>
