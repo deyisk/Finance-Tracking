@@ -28,14 +28,14 @@ const ExpenseCard = ({ transactions }) => {
         <Box className={classes.container}>
             <Card>
                 <CardContent>
-                    <Typography>Income</Typography>
-                    <Typography className={classes.income}>+₹{income}</Typography>
+                    <Typography>Gelir</Typography>
+                    <Typography className={classes.income}>+₺{income}</Typography>
                 </CardContent>
             </Card>
             <Card>
                 <CardContent>
-                    <Typography>Ex</Typography>
-                    <Typography className={classes.expense}>-₹{expense}</Typography>
+                    <Typography>Gider</Typography>
+                    <Typography className={classes.expense}>-₺{expense}</Typography>
                 </CardContent>
             </Card>
         </Box>

@@ -31,10 +31,10 @@ const NewTransaction = ({ addTransaction }) => {
     
     return (
         <Box className={classes.container}>
-            <Typography variant="h5">New Transaction</Typography>
-            <TextField value={text} label="Enter Expense" onChange = {(e) => setText(e.target.value)} />
-            <TextField value={amount} label="Enter Amount" onChange = {(e) => setAmount(e.target.value)}  />
-            <Button className={classes.button} variant="contained" onClick={newTransaction}>Add Transaction</Button>
+            <Typography variant="h5">Yeni İşlem</Typography>
+            <TextField value={text} label="Açıklama:" onChange = {(e) => setText(e.target.value)} />
+            <TextField value={amount} label="Tutar: (Gider ise - ile giriniz)" onChange = {(e) => setAmount(e.target.value)}  />
+            <Button className={classes.button} variant="contained" onClick={newTransaction}>İşlem Ekle</Button>
         </Box>
     )
 }

@@ -10,7 +10,7 @@ const useStyle = makeStyles({
 })
 
 const Transaction = ({transaction, deleteTransaction}) => {
-    const sign = transaction.amount >= 0 ? '₹' : '-₹';
+    const sign = transaction.amount >= 0 ? '₺' : '-₺';
     const amount = sign + Math.abs(transaction.amount);
     const color = transaction.amount >=0 ? 'Green' : 'Red';
     const classes = useStyle();

@@ -17,7 +17,7 @@ const Transactions = ({ transactions, deleteTransaction }) => {
 
     return (
         <Box className={classes.component}>
-            <Typography variant="h5">Transaction History</Typography>
+            <Typography variant="h5">İşlem Geçmişi</Typography>
             <Divider style={{width: '100%'}} />
             <List>
                 {
